@@ -7,7 +7,7 @@ def h(thetas,featureMatrix):
 	repeatedThetas = np.tile(thetas,(len(featureMatrix),1))
 	interceptVector  = repeatedThetas[:,0]
 	return (repeatedThetas*featureMatrix) + interceptVector
-#git test
+#git test 2
 def LRcls(k):
 	thetas = np.zeros(k)
 	alpha = 0.0001
@@ -15,8 +15,7 @@ def LRcls(k):
 	
 	for gradient > alpha:
 		newThetas = thetas[0] - alpha*(1/m)*sum(hVector-y)
-	
-ik wil kokosnoot eten
+
 
 
 	
